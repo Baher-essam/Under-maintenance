@@ -3,58 +3,192 @@
     margin: 0;
     padding: 0;
   }
-  
-  body {
-    background-color: #ffd54f;
-  }
-  
-  .container {
-    color: #333;
-    text-align: center;
-  }
-  
-  h1 {
-    font-weight: normal;
-  }
-  
-  li {
-    display: inline-block;
-    font-size: 1.5em;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-  
-  li span {
+
+body
+{
+    font-family: 'segoe ui light';
+    background: #3D7EAA; 
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);
+    background: linear-gradient(to right, #FFE47A, #3D7EAA);
+    color: #fff;
+}
+h3{font-weight: 500; font-size: 2.5em;}
+li {
+display: inline-block;
+font-size: 1.5em;
+list-style-type: none;
+padding: 1em;
+text-transform: uppercase;
+color:#fff;
+}
+li span 
+{
     display: block;
-    font-size: 4.5rem;
-  }
-  
-  
-  /* general styling */
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-  
-  body {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: -apple-system, 
-      BlinkMacSystemFont, 
-      "Segoe UI", 
-      Roboto, 
-      Oxygen-Sans, 
-      Ubuntu, 
-      Cantarell, 
-      "Helvetica Neue", 
-      sans-serif;
-  }
-  
-  .container {
-    margin: 0 auto;
-  }
+    font-size: 3.5rem;
+    color: rgba(247, 255, 86, 0.83);
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {font-weight: 800; font-size: 10vh;}
+.data
+{
+    transform: translate(0% ,50%);
+    -webkit-transform: translate(0% ,50%);
+    -moz-transform: translate(0% ,50%);
+    -ms-transform: translate(0% ,50%);
+    -o-transform: translate(0% ,50%);
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    h1 
+    {
+        font-weight: 800; font-size: 9vh;
+    }
+    h3
+    {
+        font-size: 2.5em;
+    }
+}
+
+
+@media only screen and (max-width: 1050px) {
+    h1 
+    {
+        font-weight: 800; font-size: 8vh;
+    }
+    h3
+    {
+        font-size: 2.5em;
+    }
+    li span 
+    {
+        font-size: 2.8rem;
+    }
+    li 
+    {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    h1 
+    {
+        font-weight: 800; font-size: 6.5vh;
+    }
+    h3
+{
+    font-size: 2em;
+}
+    li span 
+    {
+        font-size: 2em;
+    }
+    li 
+    {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 690px) {
+    h1 
+    {
+        font-weight: 800; font-size: 5.5vh;
+    }
+    h3
+    {
+        font-size: 1.7em;
+    }
+    li span 
+    {
+        font-size: 2em;
+    }
+    li 
+    {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    h1 
+    {
+        font-weight: 800; font-size: 4.5vh;
+    }
+    h3
+    {
+        font-size: 1.2em;
+    }
+    li span 
+    {
+        font-size: 1.5em;
+    }
+    li 
+    {
+        font-size: 0.8em;
+    }
+    .data
+    {
+        transform: translate(0 , 100%);
+        -moz-transform: translate(0 , 100%);
+        -webkit-transform: translate(0 , 100%);
+        -ms-transform: translate(0 , 100%);
+        -o-transform: translate(0 , 100%);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    h1 
+    {
+        font-weight: 800; font-size: 3.5vh;
+    }
+    h3
+    {
+        font-size: 20px;
+    }
+    li span 
+    {
+        font-size: 1.5em;
+    }
+    li 
+    {
+        font-size: 15px;
+    }
+    .data
+    {
+        transform: translate(0 , 150%);
+        -moz-transform: translate(0 , 150%);
+        -webkit-transform: translate(0 , 150%);
+        -ms-transform: translate(0 , 150%);
+        -o-transform: translate(0 , 150%);
+}
+}
+
+
+@media only screen and (max-width: 376px) {
+    h1 
+    {
+        font-weight: 800; font-size: 3vh;
+    }
+    h3
+    {
+        font-size: 15px;
+    }
+    li span 
+    {
+        font-size: 1em;
+    }
+    li 
+    {
+        font-size: 10px;
+    }
+    .data
+    {
+        transform: translate(0 , 150%);
+        -moz-transform: translate(0 , 150%);
+        -webkit-transform: translate(0 , 150%);
+        -ms-transform: translate(0 , 150%);
+        -o-transform: translate(0 , 150%);
+}
+}
