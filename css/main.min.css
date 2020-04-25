@@ -48,13 +48,13 @@ h1 {
 
 
 @media only screen and (max-width:1025px) {
-    h1 {
+/*     h1 {
         font-weight: 800;
         font-size: 8vh
     }
     h3 {
         font-size: 2.5em
-    }
+    } */
     li span {
         font-size: 2.8rem
     }
@@ -64,13 +64,13 @@ h1 {
 }
 
 @media only screen and (max-width:769px) {
-    h1 {
+/*     h1 {
         font-weight: 800;
         font-size: 6.5vh
     }
     h3 {
         font-size: 2em
-    }
+    } */
     li span {
         font-size: 2em
     }
@@ -81,13 +81,13 @@ h1 {
 
 
 @media only screen and (max-width:426px) {
-    h1 {
+/*     h1 {
         font-weight: 600;
         font-size: 3.5vh
     }
     h3 {
         font-size: 20px
-    }
+    } */
     li span {
         font-size: 1.5em
     }
@@ -104,14 +104,14 @@ h1 {
 }
 
 @media only screen and (max-width:376px) {
-    h1 {
+/*     h1 {
         font-weight: 400;
         font-size: 4vh
     }
     h3 {
         font-size: 15px;
         font-weight: 200
-    }
+    } */
     li span {
         font-size: 1em
     }
